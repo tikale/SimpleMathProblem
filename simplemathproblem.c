@@ -7,6 +7,7 @@ int liczba;
 int modresult;
 int ii = 0;
 int max = 0;
+int exit;
 
 printf("Simple math problem.\n");
 printf("For odd N = N *3 +1, and for even N = N /2. \n");
@@ -31,7 +32,7 @@ printf("Liczba startowa %d \n", liczba);
 printf("liczba operacji %d \n", ii);
 printf("maksymalna liczba %d \n", max);
 
-//system("pause");
+exit = getchar();
 
 return 0;	
 }
